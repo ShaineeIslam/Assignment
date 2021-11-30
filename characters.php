@@ -37,6 +37,7 @@ $characters = array (
 
   array_push($characters, array("name" => "Wade Wilson",
   "email" => "wadewilson@mail.com"));
+  print_r($characters);
 
 /*/ create an object of simpleXMLElement
 $xml = new SimpleXMLElement('<characters/>');
